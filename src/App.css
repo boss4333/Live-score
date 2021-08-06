@@ -1,3 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+body{
+  min-height: 100vh;
+    background: linear-gradient(to right top,#f192d1,#f1a62d);
+    /* display: flex; */
+     /* align-items: center; */
+     /* justify-content: center; */
+}
 .App {
   text-align: center;
 }
@@ -6,13 +23,15 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+/* body{
+  background-color: #edfab1;
+} */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+ 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +55,5 @@
     transform: rotate(360deg);
   }
 }
+ 
+ 
